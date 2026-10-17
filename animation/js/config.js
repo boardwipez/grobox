@@ -41,7 +41,9 @@ GB.config = {
   // Also switchable from the URL:  ?dev=0   ?ui=0   ?export=1
   devMode: true,
   showPlayerControls: true,
-  showCaptions: true,
+  // On-screen copy in white paper boxes. Off: the film is narrated by voice-over.
+  showCaptions: false,   // bottom captions
+  showLabels: false,     // in-scene tags (legend, mould part names, cross-section notes, map tag)
   autoplay: true,
   loop: false,
 

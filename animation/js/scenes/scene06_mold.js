@@ -39,6 +39,7 @@
         const lab = GB.PaperLabel(lg, n, { size: 30, className: 'tag-text' });
         lab.layout();
         const line = GB.line(root, `M${396},${ys[i] - 10}L${MX - 330 * S - 10},${ys[i] - 10}`, '@ink-soft', 2, { 'stroke-dasharray': '5 6' });
+        if (GB.config.showLabels === false) line.style.visibility = 'hidden';
         return { g: lg, lab, y: ys[i], line };
       });
 
@@ -66,6 +67,7 @@
         el('circle', { cx: ax, cy: ay + 30, r: 5, style: 'fill:var(--ink)' }, lg);
         const l = GB.PaperLabel(g(lg, { transform: `translate(${lx},${ly + 30})` }), txt, { size: 22, className: 'tag-text' });
         l.layout();
+        if (GB.config.showLabels === false) lg.style.visibility = 'hidden';
         return lg;
       });
       ctx.hollowTint = el('path', { d: 'M-100,-10H100V100H-100Z', style: 'fill:rgba(255,255,255,.0)' }, sec);

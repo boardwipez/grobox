@@ -164,6 +164,7 @@
     o = o || {};
     const size = o.size || 40;
     const grp = g(parent, { class: 'paper-label' });
+    if (GB.config.showLabels === false && !o.always) grp.style.visibility = 'hidden';
     const card = el('path', { style: `fill:${paint(o.fill || '@card')}`, filter: 'url(#f-paper)' }, grp);
     const tx = el('text', { x: 0, y: 0, 'font-size': size, class: o.className || 'cap-text', style: `fill:${paint(o.color || '@ink')}` }, grp);
     tx.textContent = text;

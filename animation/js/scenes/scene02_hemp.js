@@ -55,6 +55,7 @@
       const lab = GB.PaperLabel(ctx.callout, 'trékjarni', { size: 28, className: 'tag-text' });
       lab.layout();
       lab.setAttribute('transform', 'translate(-80,190)');
+      if (GB.config.showLabels === false) ctx.coLine.style.visibility = 'hidden';
     },
     update(t, ctx) {
       const E = GB.FRAGMENT_END;

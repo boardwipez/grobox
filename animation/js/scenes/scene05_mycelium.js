@@ -56,6 +56,7 @@
       const lab2 = GB.PaperLabel(g(l2, { transform: 'translate(46,0)' }), 'sveppagró', { size: 30, className: 'tag-text' });
       lab2.layout();
       ctx.legendParts = [l1, l2];
+      if (GB.config.showLabels === false) ctx.legend.style.visibility = 'hidden';
       void chip;
     },
     update(t, ctx) {

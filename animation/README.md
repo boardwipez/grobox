@@ -69,6 +69,8 @@ Everything lives in **`js/config.js`**:
 * **`captions`** (Icelandic) are positioned as fractions of the scene (0 to 1), so they stay in sync when
   you re-time. Set `showCaptions: false` to remove all on-screen copy (for example, if the
   voice-over carries it).
+* **`showCaptions`** / **`showLabels`** are both `false`: the film carries no boxed text and is
+  meant for voice-over. Set either to `true` to bring the captions or in-scene tags back.
 * **`narration`** is reference voice-over text for each scene. It is not drawn.
 * **`stopMotionFps`** is the number of poses per second (default 12, "on twos" at 24 fps). Set
   it to 0 for perfectly smooth motion. **`boil`** sets the hand-placed jitter in px.
