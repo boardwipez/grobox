@@ -60,7 +60,7 @@
       for (let y = 1100; y >= 380; y -= 60) coast.push([1300 + Math.sin(y / 70) * 50 + r() * 40 + (1100 - y) * 0.42, y]);
       coast.push([2000, 300], [2000, 1120]);
       GB.PaperShape(land, smoothPath(coast, true), '@beige');
-      const tag = GB.PaperLabel(g(ctx.map, { transform: 'translate(330,520)' }), 'Iceland', { size: 32, className: 'tag-text' });
+      const tag = GB.PaperLabel(g(ctx.map, { transform: 'translate(330,520)' }), 'Ísland', { size: 32, className: 'tag-text' });
       tag.layout();
       // route
       ctx.routeD = 'M560,430 C760,560 900,760 1120,860 S1500,900 1620,820';

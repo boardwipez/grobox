@@ -47,13 +47,13 @@
       ctx.legend = g(root);
       const l1 = g(ctx.legend);
       const chip = GB.HempHurd(g(l1, { filter: 'url(#f-paper)', transform: 'translate(0,-12) rotate(-20)' }), { len: 44, seed: 3 });
-      const lab1 = GB.PaperLabel(g(l1, { transform: 'translate(46,0)' }), 'hemp hurds', { size: 30, className: 'tag-text' });
+      const lab1 = GB.PaperLabel(g(l1, { transform: 'translate(46,0)' }), 'hampstiklar', { size: 30, className: 'tag-text' });
       lab1.layout();
       const l2 = g(ctx.legend, { transform: 'translate(0,84)' });
       const gr = g(l2, { filter: 'url(#f-thread)', transform: 'translate(0,-12)' });
       GB.path(gr, GB.smoothPath(GB.blobPoints(-6, 0, 8, 7, 8, 0.4, rng(2)), true), '@mycelium');
       GB.line(gr, 'M4,-2 c8,-6 14,4 22,-2 M0,6 c6,6 -2,12 4,18', '@mycelium', 3);
-      const lab2 = GB.PaperLabel(g(l2, { transform: 'translate(46,0)' }), 'mycelium culture', { size: 30, className: 'tag-text' });
+      const lab2 = GB.PaperLabel(g(l2, { transform: 'translate(46,0)' }), 'svepparót', { size: 30, className: 'tag-text' });
       lab2.layout();
       ctx.legendParts = [l1, l2];
       void chip;

@@ -65,121 +65,121 @@ GB.config = {
       id: 'problem', title: 'The problem', duration: 10,           // brief: 10
       transition: 'cut',
       captions: [
-        { at: 0.08, to: 0.50, text: 'Seafood needs protection.' },
-        { at: 0.62, to: 0.94, text: 'But what happens after the box is used?' }
+        { at: 0.08, to: 0.50, text: 'Sjávarafurðir þurfa vernd.' },
+        { at: 0.62, to: 0.94, text: 'En hvað verður um kassann eftir notkun?' }
       ],
-      narration: 'Every day, fresh seafood leaves the harbour packed in white foam boxes. They protect the catch — but once used, the foam breaks apart and too often ends up on the shore.'
+      narration: 'Á hverjum degi fara ferskar sjávarafurðir frá höfninni í hvítum frauðplastkössum. Þeir vernda aflann — en eftir notkun brotnar frauðið og endar of oft í fjörunni.'
     },
     {
       id: 'hemp', title: 'Hemp', duration: 12,                       // brief: 13
       transition: 'wipe',
       captions: [
-        { at: 0.70, to: 0.97, text: 'The woody hemp stalk becomes our raw material.' }
+        { at: 0.70, to: 0.97, text: 'Trékenndur hampstöngullinn verður að hráefni.' }
       ],
-      narration: 'Grobox starts with hemp. After harvest, the leaves are separated from the woody stalk — and that stalk is the part we use.'
+      narration: 'Grobox byrjar á hampi. Eftir uppskeru eru laufin skilin frá trékenndum stönglinum — og það er stöngullinn sem við notum.'
     },
     {
       id: 'hurds', title: 'Hemp hurds', duration: 12,                // brief: 14
       transition: 'cut',
       captions: [
-        { at: 0.18, to: 0.48, text: 'Chopped into hemp hurds' },
-        { at: 0.52, to: 0.74, text: 'Screened and cleaned' }
+        { at: 0.18, to: 0.48, text: 'Saxaður í hampstikla' },
+        { at: 0.52, to: 0.74, text: 'Sigtaðir og hreinsaðir' }
       ],
-      narration: 'The stalks are chopped into small woody pieces called hemp hurds, then screened to remove dust.'
+      narration: 'Stönglarnir eru saxaðir í litla trékennda búta, hampstikla, og síðan sigtaðir til að fjarlægja ryk.'
     },
     {
       id: 'heat', title: 'Heat treatment', duration: 10,             // brief: 11
       transition: 'wipe-left',
       captions: [
-        { at: 0.24, to: 0.60, text: 'Heat-treated for a clean start' },
-        { at: 0.72, to: 0.97, text: 'Then cooled' }
+        { at: 0.24, to: 0.60, text: 'Hitameðhöndlaðir fyrir hreina byrjun' },
+        { at: 0.72, to: 0.97, text: 'Síðan kældir' }
       ],
-      narration: 'The hurds are heat-treated so the mycelium starts on a clean base, then allowed to cool.'
+      narration: 'Hampstiklarnir eru hitameðhöndlaðir svo svepparótin fái hreinan grunn, og síðan látnir kólna.'
     },
     {
       id: 'mycelium', title: 'Add mycelium', duration: 13,           // brief: 15
       transition: 'strips',
       captions: [
-        { at: 0.16, to: 0.42, text: 'Mycelium culture is added' },
-        { at: 0.46, to: 0.74, text: 'and mixed evenly through the hemp' }
+        { at: 0.16, to: 0.42, text: 'Svepparót er bætt út í' },
+        { at: 0.46, to: 0.74, text: 'og blandað jafnt saman við hampinn' }
       ],
-      narration: 'Next, a living mycelium culture — the root network of fungi — is mixed evenly through the hemp.'
+      narration: 'Næst er lifandi svepparót — rótarneti sveppa — blandað jafnt saman við hampinn.'
     },
     {
       id: 'mold', title: 'Fill the mould', duration: 15,             // brief: 15
       transition: 'cut',
       captions: [
-        { at: 0.03, to: 0.20, text: 'A reusable Grobox mould' },
-        { at: 0.62, to: 0.80, text: 'Bottom, four walls, hollow centre' },
-        { at: 0.82, to: 0.97, text: 'The lid is moulded separately' }
+        { at: 0.03, to: 0.20, text: 'Endurnýtanlegt Grobox-mót' },
+        { at: 0.62, to: 0.80, text: 'Botn, fjórir veggir og holrými' },
+        { at: 0.82, to: 0.97, text: 'Lokið er mótað sérstaklega' }
       ],
-      narration: 'The mixture is packed into a reusable mould. An inner core forms the hollow centre, giving the box a solid bottom and four thick, insulating walls. The lid is moulded separately.'
+      narration: 'Blöndunni er þjappað í endurnýtanlegt mót. Innri kjarni myndar holrýmið, svo kassinn fær heilan botn og fjóra þykka, einangrandi veggi. Lokið er mótað sérstaklega.'
     },
     {
       id: 'rack', title: 'Vertical rack', duration: 10,              // brief: 10
       transition: 'cut',
       captions: [
-        { at: 0.55, to: 0.97, text: 'Grown vertically — compact use of space' }
+        { at: 0.55, to: 0.97, text: 'Ræktað lóðrétt — rýmið nýtist vel' }
       ],
-      narration: 'Closed moulds are stacked on vertical racks, with space for air to move around each one.'
+      narration: 'Lokuðum mótum er raðað í lóðréttar hillur, með rými fyrir loft að leika um hvert þeirra.'
     },
     {
       id: 'growth', title: 'Mycelium growth', duration: 16,          // brief: 16  (hero)
       transition: 'wipe',
       captions: [
-        { at: 0.30, to: 0.55, text: 'Mycelium threads grow between the hemp pieces' },
-        { at: 0.58, to: 0.82, text: 'binding them into one solid material' }
+        { at: 0.30, to: 0.55, text: 'Þræðir svepparótarinnar vaxa á milli hampstiklanna' },
+        { at: 0.58, to: 0.82, text: 'og binda þá saman í heilt efni' }
       ],
-      narration: 'Inside, the mycelium grows. Fine white threads branch between the hemp pieces, wrap around them and connect them — a natural binder that turns loose fibres into one solid material.'
+      narration: 'Inni í mótinu vex svepparótin. Fínir hvítir þræðir greinast á milli hampstiklanna, vefjast um þá og tengja þá saman — náttúrulegt bindiefni sem gerir lausar trefjar að heilu efni.'
     },
     {
       id: 'demold', title: 'Demould', duration: 12,                  // brief: 14
       transition: 'cut',
       captions: [
-        { at: 0.62, to: 0.96, text: 'A solid, hollow box — with a matching lid' }
+        { at: 0.62, to: 0.96, text: 'Heill, holur kassi — og lok í stíl' }
       ],
-      narration: 'When growth is complete, the mould opens to reveal the box — thick walls, hollow centre — and its matching lid.'
+      narration: 'Þegar vextinum er lokið er mótið opnað og kassinn kemur í ljós — þykkir veggir, holrými — ásamt lokinu.'
     },
     {
       id: 'dry', title: 'Final heat', duration: 11,                  // brief: 12
       transition: 'cut',
       captions: [
-        { at: 0.22, to: 0.62, text: 'Dried to stop growth' },
-        { at: 0.64, to: 0.96, text: 'and stabilise the material' }
+        { at: 0.22, to: 0.62, text: 'Þurrkað til að stöðva vöxtinn' },
+        { at: 0.64, to: 0.96, text: 'og gera efnið stöðugt' }
       ],
-      narration: 'A final drying step removes moisture, stops the growth and stabilises the material.'
+      narration: 'Lokaþurrkun fjarlægir raka, stöðvar vöxtinn og gerir efnið stöðugt.'
     },
     {
       id: 'coating', title: 'Bio coating', duration: 11,             // brief: 11
       transition: 'wipe',
       captions: [
-        { at: 0.30, to: 0.95, text: 'A thin bio-based moisture-resistant coating', sub: 'under development', claim: 'coatingUnderDevelopment' }
+        { at: 0.30, to: 0.95, text: 'Þunn, lífrænt byggð rakavörn', sub: 'í þróun', claim: 'coatingUnderDevelopment' }
       ],
-      narration: 'A very thin bio-based coating, currently under development, helps the box resist moisture.'
+      narration: 'Mjög þunn, lífrænt byggð húð, sem er í þróun, hjálpar kassanum að standast raka.'
     },
     {
       id: 'transport', title: 'Seafood transport', duration: 12,     // brief: 12
       transition: 'wipe-left',
       captions: [
-        { at: 0.04, to: 0.30, text: 'Packed with fish and ice' },
-        { at: 0.70, to: 0.97, text: 'From Iceland to market' }
+        { at: 0.04, to: 0.30, text: 'Pakkað með fiski og ís' },
+        { at: 0.70, to: 0.97, text: 'Frá Íslandi á markað' }
       ],
-      narration: 'Packed with fish and ice, Grobox carries the catch from Iceland to market.'
+      narration: 'Með fiski og ís flytur Grobox aflann frá Íslandi á markað.'
     },
     {
       id: 'endoflife', title: 'End of life', duration: 12,           // brief: 12
       transition: 'fade',
       captions: [
-        { at: 0.06, to: 0.30, text: 'After use' },
-        { at: 0.62, to: 0.97, text: 'Designed for biological end-of-life', claim: 'biologicalEndOfLife' }
+        { at: 0.06, to: 0.30, text: 'Eftir notkun' },
+        { at: 0.62, to: 0.97, text: 'Hannað til lífræns niðurbrots', claim: 'biologicalEndOfLife' }
       ],
-      narration: 'After use, the box can be broken up and returned to a controlled composting process — designed for biological end-of-life.'
+      narration: 'Eftir notkun má brjóta kassann niður og setja hann í stýrða jarðgerð — hannaður til lífræns niðurbrots.'
     },
     {
       id: 'final', title: 'Final frame', duration: 6,                // brief: 5–6
       transition: 'cut',
       captions: [],
-      narration: 'Grobox. Grown to protect. Designed to return.'
+      narration: 'Grobox. Ræktað til að vernda. Hannað til að snúa aftur.'
     }
   ],
 
@@ -187,5 +187,5 @@ GB.config = {
 
   // Final title copy (scene 14).
   title: 'GROBOX',
-  tagline: ['Grown to protect.', 'Designed to return.']
+  tagline: ['Ræktað til að vernda.', 'Hannað til að snúa aftur.']
 };

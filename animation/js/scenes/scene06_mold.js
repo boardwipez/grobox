@@ -32,7 +32,7 @@
       GB.MoldPlate(ctx.plate);
 
       // labels (left)
-      const names = ['1  Lower mould', '2  Hemp + mycelium mix', '3  Inner core', '4  Upper plate'];
+      const names = ['1  Neðra mót', '2  Hampur + svepparót', '3  Innri kjarni', '4  Efri plata'];
       const ys = [Y.lower + 60, Y.mix, Y.core + 50, Y.plate];
       ctx.labels = names.map((n, i) => {
         const lg = g(root);
@@ -46,7 +46,7 @@
       ctx.inset = g(root);
       const card = g(ctx.inset, { filter: 'url(#f-lift)' });
       GB.PaperShape(card, rrPath(-250, -200, 500, 430, 10, 10), '@card');
-      const t = GB.PaperLabel(ctx.inset, 'Cross-section', { size: 24, className: 'tag-text' }); t.layout();
+      const t = GB.PaperLabel(ctx.inset, 'Þversnið', { size: 24, className: 'tag-text' }); t.layout();
       t.setAttribute('transform', 'translate(-226,196)');
       const sec = g(ctx.inset, { filter: 'url(#f-paper)', transform: 'translate(0,30)' });
       const cavity = 'M-140,-40H140V110H-140Z';
@@ -60,7 +60,7 @@
       ctx.secPlate = g(sec);
       el('path', { d: 'M-196,0H196V24H-196Z', style: 'fill:var(--grey-light)' }, ctx.secPlate);
       // section labels
-      ctx.secLabels = [['bottom', 0, 92, 0, 160], ['walls', -120, 20, -210, -14], ['hollow centre', 0, 20, 70, -112]].map(([txt, ax, ay, lx, ly]) => {
+      ctx.secLabels = [['botn', 0, 92, 0, 160], ['veggir', -120, 20, -210, -14], ['holrými', 0, 20, 70, -112]].map(([txt, ax, ay, lx, ly]) => {
         const lg = g(ctx.inset);
         GB.line(lg, `M${ax},${ay + 30}L${lx + (lx < ax ? 40 : 0)},${ly + 20}`, '@ink', 2);
         el('circle', { cx: ax, cy: ay + 30, r: 5, style: 'fill:var(--ink)' }, lg);
@@ -78,7 +78,7 @@
       ctx.lidPlate = g(root);
       GB.LidMoldPlate(ctx.lidPlate);
       ctx.lidLabel = g(root);
-      const ll = GB.PaperLabel(ctx.lidLabel, 'Lid mould', { size: 26, className: 'tag-text' }); ll.layout();
+      const ll = GB.PaperLabel(ctx.lidLabel, 'Mót fyrir lok', { size: 26, className: 'tag-text' }); ll.layout();
     },
     update(t, ctx) {
       const drop = (a) => seg(t, a, a + 0.6, 'out');

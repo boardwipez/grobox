@@ -52,7 +52,7 @@
       }
       el('circle', { cx: 0, cy: 0, r: 28, style: 'fill:#f2ede2' }, co);
       ctx.coLine = GB.line(ctx.callout, 'M0,0', '@ink-soft', 2.5, { 'stroke-dasharray': '6 7' });
-      const lab = GB.PaperLabel(ctx.callout, 'woody core', { size: 28, className: 'tag-text' });
+      const lab = GB.PaperLabel(ctx.callout, 'trékjarni', { size: 28, className: 'tag-text' });
       lab.layout();
       lab.setAttribute('transform', 'translate(-80,190)');
     },

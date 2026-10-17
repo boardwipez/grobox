@@ -66,7 +66,7 @@ Everything lives in **`js/config.js`**:
   or compresses it to fit, so no animation code needs rewriting.
 * **`transition`** sets the hand-over to the next scene: `cut`, `wipe`, `wipe-left`, `strips`
   (staggered paper strips) or `fade`. `transitionDuration` sets the length of all transitions.
-* **`captions`** are positioned as fractions of the scene (0 to 1), so they stay in sync when
+* **`captions`** (Icelandic) are positioned as fractions of the scene (0 to 1), so they stay in sync when
   you re-time. Set `showCaptions: false` to remove all on-screen copy (for example, if the
   voice-over carries it).
 * **`narration`** is reference voice-over text for each scene. It is not drawn.

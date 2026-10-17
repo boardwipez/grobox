@@ -59,7 +59,7 @@
 
       // "inside the mould" tag
       ctx.tag = g(root);
-      const tagLab = GB.PaperLabel(ctx.tag, 'Inside the mould · cross-section', { size: 26, className: 'tag-text' });
+      const tagLab = GB.PaperLabel(ctx.tag, 'Inni í mótinu · þversnið', { size: 26, className: 'tag-text' });
       tagLab.layout();
       ctx.tagLab = tagLab;
     },
