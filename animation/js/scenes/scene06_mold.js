@@ -32,7 +32,7 @@
       GB.MoldPlate(ctx.plate);
 
       // labels (left)
-      const names = ['1  Neðra mót', '2  Hampur + svepparót', '3  Innri kjarni', '4  Efri plata'];
+      const names = ['1  Neðra mót', '2  Hampur + sveppagró', '3  Innri kjarni', '4  Efri plata'];
       const ys = [Y.lower + 60, Y.mix, Y.core + 50, Y.plate];
       ctx.labels = names.map((n, i) => {
         const lg = g(root);

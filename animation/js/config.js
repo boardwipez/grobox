@@ -94,16 +94,16 @@ GB.config = {
         { at: 0.24, to: 0.60, text: 'Hitameðhöndlaðir fyrir hreina byrjun' },
         { at: 0.72, to: 0.97, text: 'Síðan kældir' }
       ],
-      narration: 'Hampstiklarnir eru hitameðhöndlaðir svo svepparótin fái hreinan grunn, og síðan látnir kólna.'
+      narration: 'Hampstiklarnir eru hitameðhöndlaðir svo sveppagróin fái hreinan grunn, og síðan látnir kólna.'
     },
     {
       id: 'mycelium', title: 'Add mycelium', duration: 13,           // brief: 15
       transition: 'strips',
       captions: [
-        { at: 0.16, to: 0.42, text: 'Svepparót er bætt út í' },
+        { at: 0.16, to: 0.42, text: 'Sveppagró er bætt út í' },
         { at: 0.46, to: 0.74, text: 'og blandað jafnt saman við hampinn' }
       ],
-      narration: 'Næst er lifandi svepparót — rótarneti sveppa — blandað jafnt saman við hampinn.'
+      narration: 'Næst er lifandi sveppagró blandað jafnt saman við hampinn.'
     },
     {
       id: 'mold', title: 'Fill the mould', duration: 15,             // brief: 15
@@ -127,10 +127,10 @@ GB.config = {
       id: 'growth', title: 'Mycelium growth', duration: 16,          // brief: 16  (hero)
       transition: 'wipe',
       captions: [
-        { at: 0.30, to: 0.55, text: 'Þræðir svepparótarinnar vaxa á milli hampstiklanna' },
+        { at: 0.30, to: 0.55, text: 'Sveppagróin vaxa á milli hampstiklanna' },
         { at: 0.58, to: 0.82, text: 'og binda þá saman í heilt efni' }
       ],
-      narration: 'Inni í mótinu vex svepparótin. Fínir hvítir þræðir greinast á milli hampstiklanna, vefjast um þá og tengja þá saman — náttúrulegt bindiefni sem gerir lausar trefjar að heilu efni.'
+      narration: 'Inni í mótinu vaxa sveppagróin. Fínir hvítir þræðir greinast á milli hampstiklanna, vefjast um þá og tengja þá saman — náttúrulegt bindiefni sem gerir lausar trefjar að heilu efni.'
     },
     {
       id: 'demold', title: 'Demould', duration: 12,                  // brief: 14
@@ -179,7 +179,7 @@ GB.config = {
       id: 'final', title: 'Final frame', duration: 6,                // brief: 5–6
       transition: 'cut',
       captions: [],
-      narration: 'Grobox. Ræktað til að vernda. Hannað til að snúa aftur.'
+      narration: 'Grobox. Skiljum frauðplastið eftir í fortíðinni, ekki í náttúrunni.'
     }
   ],
 
@@ -187,5 +187,5 @@ GB.config = {
 
   // Final title copy (scene 14).
   title: 'GROBOX',
-  tagline: ['Ræktað til að vernda.', 'Hannað til að snúa aftur.']
+  tagline: ['Skiljum frauðplastið eftir í fortíðinni,', 'ekki í náttúrunni.']
 };
