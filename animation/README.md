@@ -82,8 +82,9 @@ noted in a comment in `config.js`.
 
 `claims` in `config.js` gates wording. Only safe wording is enabled ("bio-based",
 "developed from hemp and mycelium", "designed for biological end-of-life", "coating under
-development"). `fullyBiodegradable`, `waterproof`, `compostTimeDays` and `zeroWaste` are
-off, and no scene shows them. A caption tagged `claim: 'xyz'` only appears when that claim
+development"). `compostable` ("jarðgeranlegar umbúðir", end-of-life scene) was enabled at the client's request.
+`fullyBiodegradable`, `waterproof`, `compostTimeDays` and `zeroWaste` are off, and no scene
+shows them. A caption tagged `claim: 'xyz'` only appears when that claim
 is `true`.
 
 ### Look & feel

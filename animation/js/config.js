@@ -51,6 +51,7 @@ GB.config = {
     bioBased: true,
     madeFromHempAndMycelium: true,
     biologicalEndOfLife: true,
+    compostable: true,          // enabled by the client: "jarðgeranlegar umbúðir"
     coatingUnderDevelopment: true,
     // keep OFF unless verified:
     fullyBiodegradable: false,
@@ -153,9 +154,9 @@ GB.config = {
       id: 'coating', title: 'Bio coating', duration: 11,             // brief: 11
       transition: 'wipe',
       captions: [
-        { at: 0.30, to: 0.95, text: 'Þunn, lífrænt byggð rakavörn', sub: 'í þróun', claim: 'coatingUnderDevelopment' }
+        { at: 0.30, to: 0.95, text: 'Rakavörn úr kítíni eða kítósan', sub: 'í þróun', claim: 'coatingUnderDevelopment' }
       ],
-      narration: 'Mjög þunn, lífrænt byggð húð, sem er í þróun, hjálpar kassanum að standast raka.'
+      narration: 'Þunn rakavörn úr kítíni eða kítósan, sem er í þróun, hjálpar kassanum að standast raka.'
     },
     {
       id: 'transport', title: 'Seafood transport', duration: 12,     // brief: 12
@@ -171,9 +172,9 @@ GB.config = {
       transition: 'fade',
       captions: [
         { at: 0.06, to: 0.30, text: 'Eftir notkun' },
-        { at: 0.62, to: 0.97, text: 'Hannað til lífræns niðurbrots', claim: 'biologicalEndOfLife' }
+        { at: 0.62, to: 0.97, text: 'Jarðgeranlegar umbúðir', claim: 'compostable' }
       ],
-      narration: 'Eftir notkun má brjóta kassann niður og setja hann í stýrða jarðgerð — hannaður til lífræns niðurbrots.'
+      narration: 'Eftir notkun má brjóta kassann niður og setja hann í stýrða jarðgerð — jarðgeranlegar umbúðir.'
     },
     {
       id: 'final', title: 'Final frame', duration: 6,                // brief: 5–6
