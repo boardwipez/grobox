@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GROBOX — Paper Explainer</title>
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="viewport">
+    <div id="stage">
+      <svg id="film" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"></svg>
+      <div id="vignette"></div>
+      <div id="grain"></div>
+      <div id="loading">Cutting paper…</div>
+    </div>
+  </div>
+
+  <!-- player controls -->
+  <div id="player">
+    <button id="btn-play">▶ Play</button>
+    <button id="btn-restart" title="Restart (R)">↺ Restart</button>
+    <div id="scrub-wrap"><div id="marks"></div><input id="scrub" type="range" min="0" max="1" value="0"></div>
+    <span id="time">0:00.0</span>
+    <button id="btn-full" title="Fullscreen (F)">⛶ Fullscreen</button>
+  </div>
+
+  <!-- development scene navigator (config.devMode / ?dev=0) -->
+  <div id="dev">
+    <span class="tag">DEV</span>
+    <button id="dev-prev">◀ Previous scene</button>
+    <button id="dev-next">Next scene ▶</button>
+    <button id="dev-replay">↻ Replay scene</button>
+    <button id="dev-full">▶ Play full film</button>
+    <select id="dev-select" title="Jump to scene"></select>
+    <span class="info" id="dev-info"></span>
+  </div>
+
+  <!-- configuration & engine -->
+  <script src="js/config.js"></script>
+  <script src="js/lib/core.js"></script>
+  <script src="js/components/paper.js"></script>
+  <script src="js/components/grobox.js"></script>
+  <script src="js/components/mold.js"></script>
+  <script src="js/components/rack.js"></script>
+  <script src="js/components/hemp.js"></script>
+  <script src="js/components/mycelium.js"></script>
+  <script src="js/components/fish.js"></script>
+  <script src="js/components/wave.js"></script>
+  <script src="js/components/airflow.js"></script>
+  <script src="js/components/hand.js"></script>
+  <script src="js/components/props.js"></script>
+  <script src="js/timeline.js"></script>
+
+  <!-- scenes (order here does not matter; order comes from config.js) -->
+  <script src="js/scenes/scene01_problem.js"></script>
+  <script src="js/scenes/scene02_hemp.js"></script>
+  <script src="js/scenes/scene03_hurds.js"></script>
+  <script src="js/scenes/scene04_heat.js"></script>
+  <script src="js/scenes/scene05_mycelium.js"></script>
+  <script src="js/scenes/scene06_mold.js"></script>
+  <script src="js/scenes/scene07_rack.js"></script>
+  <script src="js/scenes/scene08_growth.js"></script>
+  <script src="js/scenes/scene09_demold.js"></script>
+  <script src="js/scenes/scene10_dry.js"></script>
+  <script src="js/scenes/scene11_coating.js"></script>
+  <script src="js/scenes/scene12_transport.js"></script>
+  <script src="js/scenes/scene13_endoflife.js"></script>
+  <script src="js/scenes/scene14_final.js"></script>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

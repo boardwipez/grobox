@@ -1,0 +1,15 @@
+{
+  "name": "grobox-animation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GROBOX paper stop-motion explainer (SVG/JS, 1920x1080)",
+  "scripts": {
+    "serve": "npx http-server -p 8080 -c-1 .",
+    "export": "node tools/export-frames.mjs --mp4",
+    "export:prores": "node tools/export-frames.mjs --prores",
+    "textures": "python3 tools/make-textures.py"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.1"
+  }
+}
